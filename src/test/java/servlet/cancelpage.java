@@ -19,8 +19,6 @@ public class cancelpage extends HttpServlet {
 					Class.forName("org.postgresql.Driver");
 					String jdbcUrl="jdbc:postgresql://54.197.32.191:5432/postgres";
 					String username="postgres";
-					String password="";
-					
 					String password="";		
 					Connection connection = DriverManager.getConnection(jdbcUrl, username, password);
 					Statement statement = connection.createStatement();
