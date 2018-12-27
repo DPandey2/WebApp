@@ -21,7 +21,7 @@ public class cancelpage extends HttpServlet {
 					String username="postgres";
 					String password="";
 					
-								
+					String password="";		
 					Connection connection = DriverManager.getConnection(jdbcUrl, username, password);
 					Statement statement = connection.createStatement();
 					String sql= "SELECT  * FROM avt;";
